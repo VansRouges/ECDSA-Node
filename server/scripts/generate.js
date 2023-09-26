@@ -6,5 +6,5 @@ const privateKey = secp.secp256k1.utils.randomPrivateKey();
 const publicKey = secp.secp256k1.getPublicKey(privateKey)
 
 console.log("Private Key:", toHex(privateKey))
-console.log("Public Key:", toHex(publicKey))
-// console.log("Eth Address:", toHex(keccak256(publicKey.slice(1).slice(-20))))
+console.log(`Public Key: ${toHex(publicKey)}`)
+// console.log("Address:", toHex(keccak256(publicKey.slice(1).slice(-20))))
