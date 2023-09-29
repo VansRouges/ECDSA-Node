@@ -1,7 +1,7 @@
 body {
   font-family: "Muli", sans-serif;
   font-weight: 300;
-  background-color: #e2e8f0;
+  background-color: #efefef;
   padding: 40px;
 }
 
@@ -41,12 +41,13 @@ label {
 }
 
 input {
-  padding: 10px 0;
-  border-radius: 0.125rem;
+  padding: 10px 0px;
+  border-radius: 0.225rem;
   border: 1px solid rgb(226, 232, 240);
   background-color: #fdfdfe;
   padding-inline-start: 0.75rem;
   font-size: 0.875rem;
+  height: 30px;
 }
 
 .button {

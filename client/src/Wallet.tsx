@@ -32,7 +32,7 @@ function Wallet({ address, setAddress, balance, setBalance, privateKey, setPriva
     <div className="container wallet">
       <h1>Your Wallet</h1>
 
-      <label>
+      <label style={{"margin": "10px 0;"}}>
         Private Key
         <input placeholder="Type a private key" value={privateKey} onChange={onChange}></input>
       </label>

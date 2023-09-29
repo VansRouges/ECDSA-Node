@@ -9,7 +9,7 @@ function App() {
   const [privateKey, setPrivateKey] = useState("");
 
   return (
-    <div className="app">
+    <div className="app flex max-w-[1400px] gap-3" style={{"margin":"0 auto"}}>
       <Wallet
         balance={balance}
         privateKey={privateKey}
